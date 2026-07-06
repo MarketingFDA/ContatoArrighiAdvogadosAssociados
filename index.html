@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contato | Arrighi Advogados &amp; Associados</title>
+<meta name="description" content="Diretório de contatos institucionais da Arrighi Advogados & Associados. Unidades, telefones, WhatsApp e canais de comunicação. Uso corporativo interno." />
+<meta name="robots" content="noindex, nofollow" />
+<link rel="icon" type="image/png" href="assets/logo-monograma-navy.png" />
+<link rel="apple-touch-icon" href="assets/logo-monograma-navy.png" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Contato | Arrighi Advogados & Associados" />
+<meta property="og:description" content="Diretório de contatos institucionais. Unidades, telefones e canais oficiais." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/logo-monograma-navy.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+  :root{
+    --navy:#0E316C;
+    --navy-dark:#081D40;
+    --accent:#E7984A;
+    --bg:#EAEAEA;
+    --text:#2B2B2B;
+    --white:#ffffff;
+    --card:#ffffff;
+    --muted:#5c6675;
+    --radius:16px;
+    --shadow-sm:0 2px 10px rgba(8,29,64,.08);
+    --shadow-md:0 12px 34px rgba(8,29,64,.14);
+    --shadow-lg:0 24px 60px rgba(8,29,64,.22);
+    --ease:cubic-bezier(.2,.7,.2,1);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Montserrat',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  a{color:inherit;text-decoration:none;}
+  .serif{font-family:'Playfair Display',Georgia,serif;}
+  .wrap{width:min(1160px,92vw);margin-inline:auto;}
+
+  /* ============ ACESSO CORPORATIVO (barra fina topo) ============ */
+  .corp-bar{
+    background:var(--navy-dark);
+    color:rgba(255,255,255,.85);
+    font-size:.72rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    text-align:center;
+    padding:7px 12px;
+    font-weight:500;
+  }
+  .corp-bar span{color:var(--accent);}
+
+  /* ============ HERO ============ */
+  .hero{
+    position:relative;
+    background:
+      radial-gradient(1200px 600px at 78% -10%, rgba(231,152,74,.16), transparent 60%),
+      radial-gradient(900px 500px at 10% 110%, rgba(231,152,74,.10), transparent 55%),
+      linear-gradient(160deg,#0E316C 0%,#0b295c 45%,#081D40 100%);
+    color:var(--white);
+    padding:64px 0 92px;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute;inset:0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+    background-size:46px 46px;
+    mask-image:radial-gradient(80% 70% at 50% 30%,#000 40%,transparent 100%);
+    pointer-events:none;
+  }
+  .hero-inner{position:relative;z-index:2;text-align:center;}
+  .hero-logo{
+    width:118px;height:118px;
+    object-fit:contain;
+    margin:0 auto 26px;
+    display:block;
+    filter:drop-shadow(0 10px 26px rgba(0,0,0,.35));
+  }
+  .hero h1{
+    font-family:'Playfair Display',serif;
+    font-weight:700;
+    font-size:clamp(2.1rem,6vw,3.6rem);
+    letter-spacing:.02em;
+    line-height:1.08;
+  }
+  .hero h1 .amp{color:var(--accent);font-style:italic;}
+  .hero .kicker{
+    display:inline-block;
+    margin-bottom:20px;
+    font-family:'Poppins',sans-serif;
+    font-size:.74rem;
+    font-weight:600;
+    letter-spacing:.34em;
+    text-transform:uppercase;
+    color:var(--accent);
+  }
+  .hero .tagline{
+    max-width:640px;margin:20px auto 0;
+    color:rgba(255,255,255,.82);
+    font-size:clamp(.98rem,2.2vw,1.12rem);
+    font-weight:300;
+  }
+  .hero-cta{
+    margin-top:38px;
+    display:flex;gap:14px;flex-wrap:wrap;justify-content:center;
+  }
+
+  /* ============ BOTÕES ============ */
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    font-family:'Poppins',sans-serif;
+    font-weight:600;font-size:.9rem;
+    padding:13px 22px;border-radius:999px;
+    border:1.5px solid transparent;
+    cursor:pointer;
+    transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .25s,color .25s,border-color .25s;
+    will-change:transform;
+  }
+  .btn svg{width:18px;height:18px;flex:none;}
+  .btn:active{transform:translateY(1px) scale(.99);}
+  .btn-wa{background:#25D366;color:#053a1b;}
+  .btn-wa:hover{background:#1fbe5a;transform:translateY(-3px);box-shadow:0 12px 26px rgba(37,211,102,.35);}
+  .btn-ig{
+    background:linear-gradient(45deg,#f09433,#e6683c 30%,#dc2743 55%,#cc2366 75%,#bc1888);
+    color:#fff;
+  }
+  .btn-ig:hover{transform:translateY(-3px);box-shadow:0 12px 26px rgba(220,39,67,.35);}
+  .btn-mail{background:var(--accent);color:#3a2400;}
+  .btn-mail:hover{background:#f0a75d;transform:translateY(-3px);box-shadow:0 12px 26px rgba(231,152,74,.4);}
+  .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.4);}
+  .btn-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff;transform:translateY(-3px);}
+
+  /* ============ SECTION HEADERS ============ */
+  section{padding:78px 0;}
+  .sec-head{text-align:center;margin-bottom:52px;}
+  .sec-head .ey{
+    font-family:'Poppins',sans-serif;
+    font-size:.72rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;
+    color:var(--accent);
+  }
+  .sec-head h2{
+    font-family:'Playfair Display',serif;
+    font-size:clamp(1.7rem,4.4vw,2.5rem);
+    color:var(--navy);
+    margin-top:10px;font-weight:700;
+  }
+  .sec-head p{max-width:560px;margin:12px auto 0;color:var(--muted);font-size:.98rem;}
+  .sec-head .rule{
+    width:64px;height:3px;margin:18px auto 0;border-radius:2px;
+    background:linear-gradient(90deg,var(--navy),var(--accent));
+  }
+
+  /* ============ STATS ============ */
+  .stats{
+    background:var(--white);
+    padding:0;margin-top:-46px;position:relative;z-index:5;
+  }
+  .stats-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);
+    background:var(--white);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow-md);
+    overflow:hidden;
+  }
+  .stat{padding:26px 18px;text-align:center;border-right:1px solid #eef0f4;}
+  .stat:last-child{border-right:none;}
+  .stat .n{
+    font-family:'Poppins',sans-serif;font-weight:800;
+    font-size:clamp(1.6rem,4vw,2.2rem);color:var(--navy);line-height:1;
+  }
+  .stat .l{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:8px;font-weight:600;}
+
+  /* ============ UNIDADES ============ */
+  .units{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;}
+  .unit{
+    background:var(--card);
+    border-radius:var(--radius);
+    padding:26px 24px 22px;
+    box-shadow:var(--shadow-sm);
+    border:1px solid #e3e6ec;
+    position:relative;
+    overflow:hidden;
+    transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s;
+  }
+  .unit::before{
+    content:"";position:absolute;left:0;top:0;height:100%;width:4px;
+    background:linear-gradient(180deg,var(--navy),var(--accent));
+    transform:scaleY(0);transform-origin:top;transition:transform .4s var(--ease);
+  }
+  .unit:hover{transform:translateY(-8px);box-shadow:var(--shadow-lg);border-color:transparent;}
+  .unit:hover::before{transform:scaleY(1);}
+  .unit-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+  .unit-city{display:flex;align-items:center;gap:12px;}
+  .unit-pin{
+    width:42px;height:42px;flex:none;border-radius:11px;
+    background:linear-gradient(160deg,var(--navy),var(--navy-dark));
+    display:grid;place-items:center;color:#fff;
+    box-shadow:0 6px 14px rgba(14,49,108,.28);
+  }
+  .unit-pin svg{width:20px;height:20px;}
+  .unit-city h3{font-family:'Poppins',sans-serif;font-size:1.18rem;font-weight:700;color:var(--navy);line-height:1.1;}
+  .unit-city .uf{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;}
+  .badge{
+    font-family:'Poppins',sans-serif;font-size:.62rem;font-weight:700;letter-spacing:.14em;
+    text-transform:uppercase;color:#3a2400;background:var(--accent);
+    padding:5px 11px;border-radius:999px;box-shadow:0 4px 10px rgba(231,152,74,.35);
+  }
+  .phones{list-style:none;margin:6px 0 18px;}
+  .phones li{margin:8px 0;}
+  .phones a{
+    display:flex;align-items:center;gap:10px;
+    color:var(--text);font-weight:500;font-size:.98rem;
+    padding:6px 8px;margin-left:-8px;border-radius:9px;
+    transition:background .2s,color .2s,transform .2s;
+  }
+  .phones a:hover{background:#f1f4fa;color:var(--navy);transform:translateX(3px);}
+  .phones a svg{width:16px;height:16px;color:var(--accent);flex:none;}
+  .unit-actions{display:flex;gap:10px;}
+  .unit-actions .btn{flex:1;justify-content:center;padding:11px 12px;font-size:.82rem;}
+  .btn-call{background:var(--navy);color:#fff;}
+  .btn-call:hover{background:var(--navy-dark);transform:translateY(-2px);box-shadow:0 8px 18px rgba(14,49,108,.32);}
+  .btn-wa-sm{background:#25D366;color:#053a1b;}
+  .btn-wa-sm:hover{background:#1fbe5a;transform:translateY(-2px);box-shadow:0 8px 18px rgba(37,211,102,.3);}
+
+  /* ============ CONTATO INSTITUCIONAL ============ */
+  .inst{background:var(--white);}
+  .inst-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;}
+  .inst-card{
+    border:1px solid #e3e6ec;border-radius:var(--radius);
+    padding:30px 26px;background:linear-gradient(180deg,#fff,#fbfcfe);
+    transition:transform .35s var(--ease),box-shadow .35s var(--ease);
+    display:flex;flex-direction:column;gap:14px;
+  }
+  .inst-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-md);}
+  .inst-ico{
+    width:50px;height:50px;border-radius:13px;display:grid;place-items:center;color:#fff;
+    background:linear-gradient(160deg,var(--navy),var(--navy-dark));
+    box-shadow:0 8px 18px rgba(14,49,108,.28);
+  }
+  .inst-ico svg{width:24px;height:24px;}
+  .inst-card h3{font-family:'Poppins',sans-serif;color:var(--navy);font-size:1.12rem;}
+  .inst-card .mail{font-size:.98rem;color:var(--muted);word-break:break-all;font-weight:500;}
+  .inst-btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;}
+  .inst-btns .btn{padding:10px 16px;font-size:.82rem;}
+  .btn-copy{background:#eef1f7;color:var(--navy);border-color:#dde3ee;}
+  .btn-copy:hover{background:#e3e9f5;}
+  .btn-copy.ok{background:#25D366;color:#053a1b;border-color:transparent;}
+
+  /* ============ SOCIAL / IG STRIP ============ */
+  .social{
+    background:linear-gradient(160deg,#0E316C,#081D40);
+    color:#fff;text-align:center;
+  }
+  .social .ig-card{
+    width:min(680px,92vw);margin:0 auto;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:22px;padding:44px 32px;
+    backdrop-filter:blur(6px);
+  }
+  .social .ig-ico{
+    width:72px;height:72px;margin:0 auto 20px;border-radius:20px;
+    background:linear-gradient(45deg,#f09433,#dc2743 50%,#bc1888);
+    display:grid;place-items:center;
+    box-shadow:0 14px 34px rgba(220,39,67,.4);
+  }
+  .social .ig-ico svg{width:36px;height:36px;color:#fff;}
+  .social h2{font-family:'Playfair Display',serif;font-size:clamp(1.5rem,4vw,2.1rem);margin-bottom:8px;}
+  .social .handle{color:var(--accent);font-family:'Poppins',sans-serif;font-weight:600;letter-spacing:.04em;font-size:1.05rem;}
+  .social p{color:rgba(255,255,255,.75);max-width:440px;margin:14px auto 26px;font-weight:300;}
+
+  /* ============ FOOTER ============ */
+  footer{
+    background:var(--navy-dark);color:rgba(255,255,255,.7);
+    padding:52px 0 30px;text-align:center;
+  }
+  footer .f-logo{width:70px;height:70px;object-fit:contain;margin:0 auto 18px;display:block;opacity:.95;}
+  footer .f-name{font-family:'Playfair Display',serif;color:#fff;font-size:1.3rem;letter-spacing:.03em;}
+  footer .f-name .amp{color:var(--accent);font-style:italic;}
+  footer .f-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin:22px 0;}
+  footer .f-links a{
+    display:inline-flex;align-items:center;gap:7px;font-size:.86rem;font-weight:500;
+    color:rgba(255,255,255,.8);transition:color .2s;
+  }
+  footer .f-links a svg{width:16px;height:16px;}
+  footer .f-links a:hover{color:var(--accent);}
+  footer .corp-note{
+    max-width:560px;margin:22px auto 0;font-size:.76rem;line-height:1.7;
+    color:rgba(255,255,255,.5);
+    border-top:1px solid rgba(255,255,255,.12);padding-top:22px;
+  }
+  footer .corp-note strong{color:rgba(255,255,255,.8);}
+  footer .copy{margin-top:20px;font-size:.74rem;color:rgba(255,255,255,.4);}
+
+  /* ============ BOTÃO FLUTUANTE WHATSAPP ============ */
+  .fab{
+    position:fixed;right:20px;bottom:20px;z-index:40;
+    width:58px;height:58px;border-radius:50%;
+    background:#25D366;display:grid;place-items:center;
+    box-shadow:0 10px 26px rgba(37,211,102,.5);
+    transition:transform .3s var(--ease);
+    animation:fabpulse 2.6s infinite;
+  }
+  .fab:hover{transform:scale(1.1);}
+  .fab svg{width:30px;height:30px;color:#fff;}
+  @keyframes fabpulse{0%{box-shadow:0 10px 26px rgba(37,211,102,.5),0 0 0 0 rgba(37,211,102,.5);}70%{box-shadow:0 10px 26px rgba(37,211,102,.5),0 0 0 16px rgba(37,211,102,0);}100%{box-shadow:0 10px 26px rgba(37,211,102,.5),0 0 0 0 rgba(37,211,102,0);}}
+
+  /* ============ TOAST ============ */
+  .toast{
+    position:fixed;left:50%;bottom:30px;transform:translateX(-50%) translateY(120%);
+    background:var(--navy-dark);color:#fff;padding:12px 22px;border-radius:999px;
+    font-size:.86rem;font-weight:500;box-shadow:var(--shadow-lg);z-index:60;
+    transition:transform .4s var(--ease);display:flex;align-items:center;gap:9px;
+  }
+  .toast.show{transform:translateX(-50%) translateY(0);}
+  .toast svg{width:18px;height:18px;color:#25D366;}
+
+  /* ============ REVEAL ON SCROLL ============ */
+  .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s var(--ease),transform .7s var(--ease);}
+  .reveal.in{opacity:1;transform:none;}
+  .reveal.d1{transition-delay:.08s;}
+  .reveal.d2{transition-delay:.16s;}
+  .reveal.d3{transition-delay:.24s;}
+  .reveal.d4{transition-delay:.32s;}
+  .reveal.d5{transition-delay:.40s;}
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none;}
+    .fab{animation:none;}
+    html{scroll-behavior:auto;}
+  }
+
+  /* ============ RESPONSIVO ============ */
+  @media(max-width:760px){
+    .stats-grid{grid-template-columns:repeat(2,1fr);}
+    .stat:nth-child(2){border-right:none;}
+    .stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid #eef0f4;}
+    section{padding:58px 0;}
+    .hero{padding:48px 0 76px;}
+  }
+  @media(max-width:420px){
+    .hero-cta{flex-direction:column;}
+    .hero-cta .btn{width:100%;justify-content:center;}
+  }
+</style>
+</head>
+<body>
+
+<div class="corp-bar">Acesso Corporativo &bull; <span>Diretório de Contatos Institucionais</span></div>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="wrap hero-inner">
+    <img src="assets/logo-monograma-branco.png" alt="Monograma Arrighi Advogados & Associados" class="hero-logo reveal" />
+    <span class="kicker reveal d1">Arrighi Advogados &amp; Associados</span>
+    <h1 class="reveal d2">Fale com a Arrighi<br><span class="amp">&amp;</span> nossas unidades</h1>
+    <p class="tagline reveal d3">Diretório oficial de contatos das unidades Arrighi no Brasil. Telefones diretos, WhatsApp e canais de comunicação institucional em um só lugar.</p>
+    <div class="hero-cta reveal d4">
+      <a class="btn btn-wa" href="https://wa.me/552122170600" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.15-1.7-.84-2-.94-.26-.1-.46-.15-.65.15-.2.3-.75.94-.92 1.13-.17.2-.34.22-.63.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.34.44-.5.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.65-1.57-.9-2.15-.24-.56-.48-.48-.65-.5h-.56c-.2 0-.5.07-.77.37-.26.3-1 .98-1 2.4s1.03 2.78 1.17 2.97c.15.2 2.03 3.1 4.9 4.35.69.3 1.22.47 1.64.6.69.22 1.31.19 1.8.11.55-.08 1.7-.7 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.2-.56-.34z"/><path d="M12 2C6.48 2 2 6.48 2 12c0 1.77.46 3.44 1.27 4.89L2 22l5.25-1.38A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.13c-1.6 0-3.1-.43-4.4-1.18l-.31-.18-3.12.82.83-3.04-.2-.32A8.11 8.11 0 013.87 12c0-4.48 3.65-8.13 8.13-8.13s8.13 3.65 8.13 8.13-3.65 8.13-8.13 8.13z"/></svg>
+        WhatsApp Matriz
+      </a>
+      <a class="btn btn-ig" href="https://instagram.com/arrighiadvogados" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        Instagram
+      </a>
+      <a class="btn btn-ghost" href="#unidades">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+        Ver unidades
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= STATS ================= -->
+<div class="stats">
+  <div class="wrap">
+    <div class="stats-grid reveal">
+      <div class="stat"><div class="n">6</div><div class="l">Unidades</div></div>
+      <div class="stat"><div class="n">7</div><div class="l">Telefones</div></div>
+      <div class="stat"><div class="n">1</div><div class="l">Matriz &mdash; RJ</div></div>
+      <div class="stat"><div class="n">24/7</div><div class="l">Canais online</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= UNIDADES ================= -->
+<section id="unidades">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="ey">Onde estamos</span>
+      <h2>Nossas Unidades</h2>
+      <div class="rule"></div>
+      <p>Selecione a unidade mais próxima e fale por telefone ou WhatsApp diretamente com a equipe.</p>
+    </div>
+
+    <div class="units" id="units-grid"></div>
+  </div>
+</section>
+
+<!-- ================= CONTATO INSTITUCIONAL ================= -->
+<section class="inst" id="contato">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="ey">Canais oficiais</span>
+      <h2>Contato Institucional</h2>
+      <div class="rule"></div>
+      <p>Para demandas gerais e imprensa, utilize os e-mails abaixo. Clique em copiar ou envie diretamente.</p>
+    </div>
+
+    <div class="inst-grid">
+      <div class="inst-card reveal d1">
+        <div class="inst-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        </div>
+        <h3>Atendimento Geral</h3>
+        <div class="mail" data-mail="contato@arrighiadvogados.com.br">contato@arrighiadvogados.com.br</div>
+        <p style="font-size:.86rem;color:var(--muted);margin:0;">Dúvidas, agendamentos e demandas administrativas.</p>
+        <div class="inst-btns">
+          <a class="btn btn-mail" href="mailto:contato@arrighiadvogados.com.br">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            Enviar e-mail
+          </a>
+          <button class="btn btn-copy" data-copy="contato@arrighiadvogados.com.br">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>
+            Copiar
+          </button>
+        </div>
+      </div>
+
+      <div class="inst-card reveal d2">
+        <div class="inst-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l19-7-7 19-3-8-9-4z"/></svg>
+        </div>
+        <h3>Assessoria de Comunicação</h3>
+        <div class="mail" data-mail="imprensa@arrighiadvogados.com.br">imprensa@arrighiadvogados.com.br</div>
+        <p style="font-size:.86rem;color:var(--muted);margin:0;">Imprensa, entrevistas e demandas de comunicação.</p>
+        <div class="inst-btns">
+          <a class="btn btn-mail" href="mailto:imprensa@arrighiadvogados.com.br">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            Enviar e-mail
+          </a>
+          <button class="btn btn-copy" data-copy="imprensa@arrighiadvogados.com.br">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>
+            Copiar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INSTAGRAM ================= -->
+<section class="social">
+  <div class="wrap">
+    <div class="ig-card reveal">
+      <div class="ig-ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      </div>
+      <h2>Acompanhe a Arrighi</h2>
+      <div class="handle">@arrighiadvogados</div>
+      <p>Conteúdos institucionais, atualizações e novidades do escritório no nosso Instagram oficial.</p>
+      <a class="btn btn-ig" href="https://instagram.com/arrighiadvogados" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        Seguir no Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <img src="assets/logo-monograma-branco.png" alt="Arrighi Advogados & Associados" class="f-logo" />
+    <div class="f-name">Arrighi Advogados <span class="amp">&amp;</span> Associados</div>
+    <div class="f-links">
+      <a href="https://instagram.com/arrighiadvogados" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        @arrighiadvogados
+      </a>
+      <a href="mailto:contato@arrighiadvogados.com.br">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        contato@arrighiadvogados.com.br
+      </a>
+      <a href="https://wa.me/552122170600" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.77.46 3.44 1.27 4.89L2 22l5.25-1.38A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+        WhatsApp Matriz
+      </a>
+    </div>
+    <p class="corp-note">
+      <strong>Uso corporativo interno.</strong> Este diretório reúne informações de contato institucional da Arrighi Advogados &amp; Associados, destinado a colaboradores e parceiros. As informações aqui apresentadas são de caráter institucional e podem ser atualizadas sem aviso prévio.
+    </p>
+    <div class="copy" id="copy-year">&copy; Arrighi Advogados &amp; Associados. Todos os direitos reservados.</div>
+  </div>
+</footer>
+
+<!-- FAB WhatsApp -->
+<a class="fab" href="https://wa.me/552122170600" target="_blank" rel="noopener" aria-label="WhatsApp Matriz">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.15-1.7-.84-2-.94-.26-.1-.46-.15-.65.15-.2.3-.75.94-.92 1.13-.17.2-.34.22-.63.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.14.3-.34.44-.5.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.65-1.57-.9-2.15-.24-.56-.48-.48-.65-.5h-.56c-.2 0-.5.07-.77.37-.26.3-1 .98-1 2.4s1.03 2.78 1.17 2.97c.15.2 2.03 3.1 4.9 4.35.69.3 1.22.47 1.64.6.69.22 1.31.19 1.8.11.55-.08 1.7-.7 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.2-.56-.34z"/><path d="M12 2C6.48 2 2 6.48 2 12c0 1.77.46 3.44 1.27 4.89L2 22l5.25-1.38A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.13c-1.6 0-3.1-.43-4.4-1.18l-.31-.18-3.12.82.83-3.04-.2-.32A8.11 8.11 0 013.87 12c0-4.48 3.65-8.13 8.13-8.13s8.13 3.65 8.13 8.13-3.65 8.13-8.13 8.13z"/></svg>
+</a>
+
+<!-- Toast -->
+<div class="toast" id="toast">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+  <span id="toast-msg">Copiado!</span>
+</div>
+
+<script>
+  // ---------- Dados das unidades (fonte única de verdade) ----------
+  const UNIDADES = [
+    { cidade:"Rio de Janeiro", uf:"RJ", matriz:true,  fones:["(21) 2217-0600","(21) 3195-2849"] },
+    { cidade:"São Paulo",      uf:"SP", matriz:false, fones:["(11) 5041-8787"] },
+    { cidade:"Campinas",       uf:"SP", matriz:false, fones:["(19) 3743-4200"] },
+    { cidade:"Joinville",      uf:"SC", matriz:false, fones:["(47) 3433-8081"] },
+    { cidade:"Brasília",       uf:"DF", matriz:false, fones:["(61) 3263-7672"] },
+    { cidade:"Salvador",       uf:"BA", matriz:false, fones:["(71) 3014-8600"] },
+  ];
+
+  const soDigitos = s => s.replace(/\D/g,"");           // (21) 2217-0600 -> 2122170600
+  const telHref   = s => "tel:+55" + soDigitos(s);
+  const waHref    = s => "https://wa.me/55" + soDigitos(s);
+
+  const pinSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.4-7-11a7 7 0 1114 0c0 4.6-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+  const phoneSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.6a2 2 0 01-.5 2.1L8 9.5a16 16 0 006 6l1.1-1.1a2 2 0 012.1-.5c.8.3 1.7.5 2.6.6a2 2 0 011.7 2z"/></svg>';
+  const callSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012 4.2 2 2 0 014 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.6a2 2 0 01-.5 2.1L8 9.5a16 16 0 006 6l1.1-1.1a2 2 0 012.1-.5c.8.3 1.7.5 2.6.6a2 2 0 011.7 2z"/></svg>';
+  const waSVG   = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.77.46 3.44 1.27 4.89L2 22l5.25-1.38A9.94 9.94 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>';
+
+  function cardHTML(u, i){
+    const fonesList = u.fones.map(f =>
+      `<li><a href="${telHref(f)}">${phoneSVG}<span>${f}</span></a></li>`
+    ).join("");
+    const badge = u.matriz ? '<span class="badge">Matriz</span>' : '';
+    const delay = "d" + (Math.min(i, 5));
+    return `
+      <article class="unit reveal ${delay}">
+        <div class="unit-top">
+          <div class="unit-city">
+            <span class="unit-pin">${pinSVG}</span>
+            <div>
+              <h3>${u.cidade}</h3>
+              <span class="uf">${u.uf}${u.matriz ? " &bull; Sede" : ""}</span>
+            </div>
+          </div>
+          ${badge}
+        </div>
+        <ul class="phones">${fonesList}</ul>
+        <div class="unit-actions">
+          <a class="btn btn-call" href="${telHref(u.fones[0])}">${callSVG} Ligar</a>
+          <a class="btn btn-wa-sm" href="${waHref(u.fones[0])}" target="_blank" rel="noopener">${waSVG} WhatsApp</a>
+        </div>
+      </article>`;
+  }
+
+  document.getElementById("units-grid").innerHTML = UNIDADES.map(cardHTML).join("");
+
+  // ---------- Copiar e-mail ----------
+  const toast = document.getElementById("toast");
+  const toastMsg = document.getElementById("toast-msg");
+  let toastTimer;
+  function showToast(msg){
+    toastMsg.textContent = msg;
+    toast.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(()=>toast.classList.remove("show"), 2200);
+  }
+  document.querySelectorAll(".btn-copy").forEach(btn=>{
+    btn.addEventListener("click", async ()=>{
+      const txt = btn.dataset.copy;
+      try{
+        await navigator.clipboard.writeText(txt);
+      }catch(e){
+        const ta=document.createElement("textarea");ta.value=txt;document.body.appendChild(ta);ta.select();
+        try{document.execCommand("copy");}catch(_){}
+        document.body.removeChild(ta);
+      }
+      const original = btn.innerHTML;
+      btn.classList.add("ok");
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg> Copiado';
+      showToast("E-mail copiado: " + txt);
+      setTimeout(()=>{ btn.classList.remove("ok"); btn.innerHTML = original; }, 1800);
+    });
+  });
+
+  // ---------- Reveal on scroll ----------
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+  }, { threshold:0.12, rootMargin:"0px 0px -40px 0px" });
+  document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+
+  // ---------- Ano dinâmico ----------
+  document.getElementById("copy-year").innerHTML =
+    "&copy; " + new Date().getFullYear() + " Arrighi Advogados &amp; Associados. Todos os direitos reservados.";
+</script>
+</body>
+</html>
